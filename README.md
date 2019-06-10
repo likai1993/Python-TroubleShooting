@@ -5,13 +5,13 @@
 ```bash
 sudo python2.7 -m pip install pycoin
 ```
-### 3.2 When using 'pip' to install some python libraries, it may throw some errors (e.g., missing dependencies).
+### 1.2 When using 'pip' to install some python libraries, it may throw some errors (e.g., missing dependencies).
 ```bash 
 sudo apt-get install python3.6-dev
 ```
 can fix this kind of errors.
 
-### 3.3 Set up a clean environment with 'virtualenv'
+### 1.3 Set up a clean environment with 'virtualenv'
 ```bash
 # Install pip if it is not available:
 which pip || curl https://bootstrap.pypa.io/get-pip.py | python
